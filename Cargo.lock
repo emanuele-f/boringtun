@@ -93,6 +93,7 @@ dependencies = [
  "mock_instant",
  "nix",
  "parking_lot",
+ "portable-atomic",
  "rand_core",
  "ring",
  "socket2",
@@ -790,6 +791,12 @@ dependencies = [
  "opaque-debug",
  "universal-hash",
 ]
+
+[[package]]
+name = "portable-atomic"
+version = "1.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc9c68a3f6da06753e9335d63e27f6b9754dd1920d941135b7ea8224f141adb2"
 
 [[package]]
 name = "proc-macro2"
